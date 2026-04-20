@@ -46,7 +46,7 @@ layers:
   - NUMBER
   - MODS-1
   - $$mdi:keyboard-space$$
-  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-shift$$
   - NUMBER
   - MODS-1
   NUMBER:
@@ -235,9 +235,9 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
-  - RGUI
   - $$mdi:apple-keyboard-option$$
+  - RGUI
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
