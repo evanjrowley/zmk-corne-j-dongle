@@ -50,7 +50,7 @@
 &none      &kp SQT     &kp COMMA   &kp DOT     &kp P       &kp Y                        &kp UP                           &kp F        &kp G         &kp C        &kp R        &kp L       &none
 &mo 4      &kp A       &kp O       &kp E       &kp U       &kp I       &kp LEFT         &kp ENTER         &kp RIGHT      &kp D        &kp H         &kp T        &kp N        &kp S       &mo 4
 &kp LSHFT  &kp SEMI    &kp Q       &kp J       &kp K       &kp X       &none            &kp DOWN                         &kp B        &kp M         &kp W        &kp V        &kp Z       &kp RSHFT
-                                               &mo 1       &mo 2       &kp SPACE                            &kp SPACE    &mo 1        &mo 2
+                                               &mo 1       &mo 2       &kp SPACE                            &kp RSHFT    &mo 1        &mo 2
             >;
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
@@ -90,7 +90,7 @@
             bindings = <
 &trans     &kp PG_UP   &kp UP      &kp PG_DN   &kp HOME    &trans                       &mmv MOVE_UP                     &trans       &kp HOME     &kp PG_UP   &kp UP      &kp PG_DN      &trans
 &trans     &kp LEFT    &kp DOWN    &kp RIGHT   &kp END     &trans       &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &trans       &kp END      &kp LEFT    &kp DOWN    &kp RIGHT      &trans
-&trans     &kp LCTRL   &kp LGUI    &kp LALT    &trans      &trans       &trans          &mmv MOVE_DOWN                   &trans       &trans       &kp RCTRL   &kp RGUI    &kp RALT       &trans
+&trans     &kp LCTRL   &kp LGUI    &kp LALT    &trans      &trans       &trans          &mmv MOVE_DOWN                   &trans       &trans       &kp RALT    &kp RGUI    &kp RCTRL      &trans
                                                &trans      &trans       &trans                              &trans       &trans       &trans
             >;
         };
