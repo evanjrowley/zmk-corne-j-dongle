@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyeslash_corne}
 layers:
   DVORAK:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:keyboard-tab$$
   - {t: '''', s: '"'}
   - {t: ',', s: <}
   - {t: ., s: '>'}
@@ -13,8 +13,8 @@ layers:
   - C
   - R
   - L
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - MODS-3
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:keyboard-esc$$', h: MODS-3}
   - A
   - O
   - E
@@ -28,7 +28,7 @@ layers:
   - T
   - N
   - S
-  - MODS-3
+  - {t: '$$mdi:keyboard-return$$', h: MODS-3}
   - $$mdi:apple-keyboard-shift$$
   - {t: ;, s: ':'}
   - Q
